@@ -1,0 +1,30 @@
+<h1>Users Table</h1>
+<table border="1">
+    <tr>
+        <td style="width: 100px;">S.No</td>
+        <td style="width: 100px;">ID  </td>
+        <td style="width: 100px;">Name</td>
+        <td style="width: 100px;">Domain</td>
+    </tr>
+    <tr *ngFor="let contact of contactList; let i=index">
+        <td>{{i+1}}</td>
+        <td>{{contact.id}}</td>
+        <td>{{contact.name}}</td>
+        <td>{{contact.team}}</td>
+    </tr>
+</table>
+
+<h1>College Table</h1>
+<table border="1">
+    <tr style="width: 300px;">
+        <td>S.No</td>
+        <td>College Name</td>
+        <td>Branch</td>
+    </tr>
+    <tr *ngFor="let college of collegeList; let i=index">
+        <td>{{i+1}}</td>
+        <td>{{college.College_name}}</td>
+        <td>{{college.department}}</td>
+    </tr>
+</table>
+

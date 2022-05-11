@@ -1,0 +1,37 @@
+{
+  "User": [
+    {
+      "name": "Sanjitha",
+      "id": 101,
+      "team": "Lamp"
+      
+    },
+    {
+      "name": "Jungkook ",
+      "id": 102,
+      "team": "JAVA"
+    },
+    {
+      "name": "Jimin",
+      "id": 103,
+      "team": "DOTNET"
+    }
+  ],
+  "College": [
+    {
+      "College_name": "SKCET",
+      "department": "EEE"
+    },
+    {
+      "College_name": "SKCET",
+      "department": "ECE"
+    },
+    {
+      "College_name": "SKCET",
+      "department": "CS"
+    }
+  ],
+  "Company": {
+    "name": "Aspire Systems"
+  }
+}
